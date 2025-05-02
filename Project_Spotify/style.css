@@ -1,0 +1,265 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: poppins;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  background-color: black;
+}
+
+.sidebar {
+  width: 30%;
+  background-color: #000000;
+  overflow: hidden;
+}
+
+.player {
+  background-color: green;
+  position: fixed;
+  bottom: 0;
+  height: 12vh;
+  width: 100%;
+}
+
+/* Nav section5 */
+
+.nav {
+  color: white;
+  background-color: #111;
+  border-radius: 0.5rem;
+  margin: 0.75rem;
+}
+
+.nav-options {
+  margin: 0 1.1rem;
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  align-items: center;
+  color: white;
+}
+
+.nav-options i {
+  margin-right: inherit;
+}
+
+.nav-options a {
+  font-size: 1.2rem;
+  color: white;
+  text-decoration: none;
+}
+
+/* Library Section */
+
+.library {
+  background-color: #111;
+  margin: 0.75rem;
+  height: 100%;
+  /* overflow: hidden; */
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  background: #111;
+}
+
+.library-nav {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  align-items: center;
+  font-size: 1rem;
+}
+
+.library-nav img {
+  height: 1.25rem;
+  width: 1.25rem;
+  margin: 0 1rem;
+}
+
+.library-icons i {
+  color: white;
+  margin: 0 0.2rem;
+}
+
+/* Library-Boxes */
+
+.boxes {
+  color: white;
+  margin: 0.75rem;
+  padding: 1rem;
+  background-color: #1f1f1f;
+  border-radius: 0.5rem;
+}
+
+.boxes p {
+  margin: 0.5rem 0;
+  font-size: 0.8rem;
+}
+
+.boxes button {
+  border: none;
+  border-radius: 2rem;
+  padding: 0.5rem 1rem;
+  margin: 0.75rem 0.5rem;
+  font-weight: 600;
+}
+
+.main-content {
+  border-radius: 1rem;
+  background-color: #111;
+  margin: 0.75rem 0.75rem 0 0;
+  flex: 1;
+  overflow: auto;
+}
+
+.sticky-nav {
+  position: sticky;
+  top: 0px;
+  background-color: #111;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+  color: white;
+}
+
+.nav-icons img {
+  color: red;
+}
+
+.nav-buttons button {
+  border: none;
+  padding: 0.5rem 0.75rem;
+  border-radius: 2rem;
+  width: fit-content;
+  margin: 0 0.25rem;
+  font-weight: 500;
+}
+
+.black-bg {
+  background-color: black;
+  color: white;
+}
+
+.card-container {
+  margin: 0 0 1rem 1rem;
+  color: white;
+}
+
+.card-container h2 {
+  margin: 0 0 1rem 0;
+  display: flex;
+}
+
+.card {
+  border-radius: 0.5rem;
+  width: 150px;
+  background-color: #1f1f1f;
+  padding: 1rem;
+  margin-right: 1rem;
+}
+
+.card-container img {
+  width: 100%;
+  border-radius: 0.5rem;
+}
+
+.card-container h3 {
+  margin: 0.5rem 0;
+}
+
+.card-container p {
+  font-size: 0.75rem;
+}
+
+.card-content-container {
+  display: flex;
+}
+
+/* Player */
+
+.player {
+  background-color: #000;
+  display: flex;
+}
+
+.album {
+  display: flex;
+  width: 25%;
+  justify-content: space-between;
+  padding-left: 0.75rem;
+  color: white;
+  align-items: center;
+}
+
+.album-container {
+  display: flex;
+}
+.album-cover {
+  width: 50px;
+  height: 80%;
+  border-radius: 0.5rem;
+}
+
+.album-details {
+  display: flex;
+  flex-direction: column;
+  margin: auto 0.5rem;
+}
+
+.album-title {
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.album-desc {
+  font-size: 0.75rem;
+}
+
+.album-icons i {
+  margin: 0 0.5rem;
+}
+
+/* player-controls */
+
+.player-controls {
+  width: 50%;
+  /* border: 2px solid white; */
+}
+
+.player-controls-icons {
+  margin-top: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.player-controls-icons img {
+  height: 20px;
+  width: 20px;
+  margin: 0 0.5rem;
+}
+
+.pause {
+  height: 25px;
+  width: 25px;
+}
+
+/* Timeline */
+
+.timeline {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0.25rem 0;
+}
+
+.range{
+  accent-color: #28d865;
+  width: 60%;
+}
